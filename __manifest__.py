@@ -3,6 +3,7 @@
     "version": "17.0.0.0.0",
     "category": "",
     "summary": "",
+    "author": "Odoo Mates",
     "description": """""",
     "sequence": -100,
     "license": "LGPL-3",
