@@ -1,0 +1,15 @@
+{
+    "name": "Hospital Management",
+    "version": "17.0.0.0.0",
+    "category": "",
+    "summary": "",
+    "description": """""",
+    "sequence": -100,
+    "license": "LGPL-3",
+    "depends": [],
+    "data": [],
+    "demo": [],
+    "application": True,
+    "installable": True,
+    "auto_install": False,
+}
