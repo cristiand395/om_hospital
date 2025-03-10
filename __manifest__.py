@@ -8,7 +8,7 @@
     "sequence": -100,
     "license": "LGPL-3",
     "depends": ["base"],
-    "data": ["views/menu.xml"],
+    "data": ["views/hospital_patient_views.xml", "views/menu.xml"],
     "demo": [],
     "application": True,
     "installable": True,
