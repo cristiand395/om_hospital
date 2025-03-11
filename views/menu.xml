@@ -15,6 +15,7 @@
   <menuitem id="menu_patient"
     name="Patient"
     parent="menu_patient_master"
+    action="action_hospital_patient"
     sequence="0"
   />
 
