@@ -64,6 +64,15 @@
                 <field name="last_name" />
                 <field name="age" />
                 <field name="gender" />
+                <!-- Filters -->
+                <filter name="filter_male" string="Male" domain='[("gender", "=", "male")]' />
+                <filter name="filter_female" string="Female" domain='[("gender", "=", "female")]' />
+                <separator /> <!-- Create an "&" separator -->
+                <filter name="filter_kids" string="kids" domain='[("age", "&lt;", 10)]' />
+                <!-- Grouping by -->
+                <group expand="0" string="Group by">
+                    <filter string="Gender" name="group_by_gender" context="{'group_by': 'gender'}" />
+                </group>
             </search>
         </field>
     </record>
