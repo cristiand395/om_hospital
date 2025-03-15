@@ -8,7 +8,11 @@
     "sequence": -100,
     "license": "LGPL-3",
     "depends": ["base"],
-    "data": ["views/hospital_patient_views.xml", "views/menu.xml"],
+    "data": [
+        "security/ir.model.access.csv",
+        "views/hospital_patient_views.xml",
+        "views/menu.xml"
+    ],
     "demo": [],
     "application": True,
     "installable": True,
