@@ -7,7 +7,7 @@
     "description": """""",
     "sequence": -100,
     "license": "LGPL-3",
-    "depends": ["base"],
+    "depends": ["mail"],
     "data": [
         "security/ir.model.access.csv",
         "views/hospital_patient_views.xml",
