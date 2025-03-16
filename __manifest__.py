@@ -11,7 +11,8 @@
     "data": [
         "security/ir.model.access.csv",
         "views/hospital_patient_views.xml",
-        "views/menu.xml"
+        "views/hospital_female_patient_views.xml",
+        "views/menu.xml",
     ],
     "demo": [],
     "application": True,
