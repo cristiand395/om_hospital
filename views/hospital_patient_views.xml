@@ -80,6 +80,10 @@
                 <group expand="0" string="Group by">
                     <filter string="Gender" name="group_by_gender" context="{'group_by': 'gender'}" />
                 </group>
+                <!-- Search Panel -->
+                <searchpanel>
+                    <field name="gender" select="multi" icon="fa-venus-mars" enable_counters="1" />
+                </searchpanel>
             </search>
         </field>
     </record>
