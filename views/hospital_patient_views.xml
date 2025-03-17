@@ -28,6 +28,7 @@
                             <field name="active" invisible="1" />
                             <field name="name" />
                             <field name="last_name" />
+                            <field name="birth_date" />
                             <field name="age" />
                         </group>
                         <group>

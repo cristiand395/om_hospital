@@ -15,3 +15,4 @@ class HospitalPatient(models.Model):
         tracking=True,
     )
     active = fields.Boolean(string="Active", default=True, tracking=True)
+    birth_date = fields.Date(string="Birthday")
