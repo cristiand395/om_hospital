@@ -20,5 +20,12 @@
     sequence="0"
   />
 
+  <menuitem id="menu_appointment"
+    name="Appointment"
+    parent="menu_patient_master"
+    action="action_hospital_appointment"
+    sequence="20"
+  />
+
 
 </odoo>

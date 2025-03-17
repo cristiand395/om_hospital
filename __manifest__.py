@@ -10,8 +10,9 @@
     "depends": ["mail"],
     "data": [
         "security/ir.model.access.csv",
-        "views/hospital_patient_views.xml",
+        "views/hospital_appointment_views.xml",
         "views/hospital_female_patient_views.xml",
+        "views/hospital_patient_views.xml",
         "views/menu.xml",
     ],
     "demo": [],
