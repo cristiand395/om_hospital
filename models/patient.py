@@ -16,6 +16,7 @@ class HospitalPatient(models.Model):
     )
     active = fields.Boolean(string="Active", default=True, tracking=True)
     birth_date = fields.Date(string="Birthday")
+    reference = fields.Char(string="Reference")
 
     @api.depends("birth_date")
     def _compute_age(self):

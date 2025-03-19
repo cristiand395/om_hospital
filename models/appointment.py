@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields
+from odoo import models, fields, api
 
 
 class HospitalAppointment(models.Model):
@@ -16,3 +16,10 @@ class HospitalAppointment(models.Model):
     appointment_time = fields.Datetime(
         string="Appointment Time", default=fields.Datetime.now
     )
+    patient_reference = fields.Char(string="Patient Reference")
+
+    @api.onchange("patient_id")
+    def onchange_patient_id(self):
+        for record in self:
+            if record.patient_id:
+                record.patient_reference = record.patient_id.reference
