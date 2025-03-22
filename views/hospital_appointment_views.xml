@@ -26,6 +26,12 @@
                             <field name="gender" />
                             <field name="appointment_time" />
                         </group>
+                        <notebook>
+                            <page string="Prescriptions" name="prescriptions">
+                            </page>
+                            <page string="Medicines" name="medicines">
+                            </page>
+                        </notebook>
                     </group>
                 </sheet>
             </form>
