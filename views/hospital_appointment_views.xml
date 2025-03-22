@@ -28,6 +28,9 @@
                         </group>
                         <notebook>
                             <page string="Prescriptions" name="prescriptions">
+                                <group>
+                                    <field name="prescription" placeholder="Write a prescription" />
+                                </group>
                             </page>
                             <page string="Medicines" name="medicines">
                             </page>
