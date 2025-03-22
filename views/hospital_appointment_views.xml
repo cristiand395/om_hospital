@@ -20,6 +20,11 @@
         <field name="arch" type="xml">
             <form string="Hospital Appointment">
                 <sheet>
+                    <div>
+                        <h2>
+                            <field name="priority" widget="priority" />
+                        </h2>
+                    </div>
                     <group>
                         <group>
                             <field name="patient_id" />
