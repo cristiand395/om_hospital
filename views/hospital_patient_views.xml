@@ -21,7 +21,7 @@
         <field name="name">hospital.patient.form</field>
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
-            <form>
+            <form create="1" delete="0" edit="1" duplicate="0">
                 <sheet>
                     <group>
                         <group>
@@ -52,7 +52,7 @@
         <field name="name">hospital.patient.tree</field>
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
-            <tree>
+            <tree create="1" delete="0" edit="1" duplicate="0">
                 <field name="name" />
                 <field name="last_name" />
                 <field name="age" />
